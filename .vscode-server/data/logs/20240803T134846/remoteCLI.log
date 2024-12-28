@@ -1,0 +1,6 @@
+2024-08-03 13:48:47.634 [info] Getting Manifest... ms-vscode.sublime-keybindings
+2024-08-03 13:48:47.652 [info] Installing extension: ms-vscode.sublime-keybindings {"isMachineScoped":false,"installPreReleaseVersion":false,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"}}
+2024-08-03 13:48:49.206 [info] Extension signature verification result for ms-vscode.sublime-keybindings: Success. Executed: true. Duration: 1090ms.
+2024-08-03 13:48:49.360 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-vscode.sublime-keybindings-4.1.10: ms-vscode.sublime-keybindings
+2024-08-03 13:48:49.367 [info] Renamed to /root/.vscode-server/extensions/ms-vscode.sublime-keybindings-4.1.10
+2024-08-03 13:48:49.388 [info] Extension installed successfully: ms-vscode.sublime-keybindings file:///root/.vscode-server/extensions/extensions.json

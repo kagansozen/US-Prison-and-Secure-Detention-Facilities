@@ -1,0 +1,6 @@
+2024-08-03 13:48:58.299 [info] Getting Manifest... kevinrose.vsc-python-indent
+2024-08-03 13:48:58.319 [info] Installing extension: kevinrose.vsc-python-indent {"isMachineScoped":false,"installPreReleaseVersion":false,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"}}
+2024-08-03 13:48:59.629 [info] Extension signature verification result for kevinrose.vsc-python-indent: Success. Executed: true. Duration: 886ms.
+2024-08-03 13:48:59.688 [info] Extracted extension to file:///root/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0: kevinrose.vsc-python-indent
+2024-08-03 13:48:59.694 [info] Renamed to /root/.vscode-server/extensions/kevinrose.vsc-python-indent-1.18.0
+2024-08-03 13:48:59.719 [info] Extension installed successfully: kevinrose.vsc-python-indent file:///root/.vscode-server/extensions/extensions.json

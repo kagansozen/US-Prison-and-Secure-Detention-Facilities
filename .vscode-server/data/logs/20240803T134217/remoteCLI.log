@@ -1,0 +1,6 @@
+2024-08-03 13:42:17.720 [info] Getting Manifest... ms-vscode-remote.remote-wsl
+2024-08-03 13:42:17.740 [info] Installing extension: ms-vscode-remote.remote-wsl {"isMachineScoped":false,"installPreReleaseVersion":false,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"}}
+2024-08-03 13:42:19.071 [info] Extension signature verification result for ms-vscode-remote.remote-wsl: Success. Executed: true. Duration: 836ms.
+2024-08-03 13:42:19.188 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-vscode-remote.remote-wsl-0.88.2: ms-vscode-remote.remote-wsl
+2024-08-03 13:42:19.194 [info] Renamed to /root/.vscode-server/extensions/ms-vscode-remote.remote-wsl-0.88.2
+2024-08-03 13:42:19.214 [info] Extension installed successfully: ms-vscode-remote.remote-wsl file:///root/.vscode-server/extensions/extensions.json

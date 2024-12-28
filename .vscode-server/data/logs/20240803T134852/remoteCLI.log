@@ -1,0 +1,6 @@
+2024-08-03 13:48:53.818 [info] Getting Manifest... ms-vsliveshare.vsliveshare
+2024-08-03 13:48:53.841 [info] Installing extension: ms-vsliveshare.vsliveshare {"isMachineScoped":false,"installPreReleaseVersion":false,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.92.0","date":"2024-07-31T23:26:45.634Z"}}
+2024-08-03 13:48:55.603 [info] Extension signature verification result for ms-vsliveshare.vsliveshare: Success. Executed: true. Duration: 815ms.
+2024-08-03 13:48:56.242 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5936: ms-vsliveshare.vsliveshare
+2024-08-03 13:48:56.251 [info] Renamed to /root/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5936
+2024-08-03 13:48:56.273 [info] Extension installed successfully: ms-vsliveshare.vsliveshare file:///root/.vscode-server/extensions/extensions.json
