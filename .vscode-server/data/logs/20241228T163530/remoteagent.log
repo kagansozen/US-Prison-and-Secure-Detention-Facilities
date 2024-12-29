@@ -1,0 +1,13 @@
+2024-12-28 16:35:30.748 [info] 
+
+
+
+
+2024-12-28 16:35:30.764 [info] Extension host agent started.
+2024-12-28 16:35:30.933 [info] [127.0.0.1][afe3ce58][ManagementConnection] New connection established.
+2024-12-28 16:35:31.165 [info] [127.0.0.1][6437e99f][ExtensionHostConnection] New connection established.
+2024-12-28 16:35:31.359 [info] [127.0.0.1][6437e99f][ExtensionHostConnection] <576> Launched Extension Host Process.
+2024-12-29 15:41:25.413 [info] [127.0.0.1][afe3ce58][ManagementConnection] The client has reconnected.
+2024-12-29 15:41:25.589 [info] [127.0.0.1][6437e99f][ExtensionHostConnection] The client has reconnected.
+2024-12-29 15:43:12.725 [info] [127.0.0.1][afe3ce58][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-29 15:43:12.785 [info] [127.0.0.1][6437e99f][ExtensionHostConnection] <576> Extension Host Process exited with code: 0, signal: null.

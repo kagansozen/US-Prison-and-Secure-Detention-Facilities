@@ -1,3 +1,0 @@
-2024-08-03 13:41:50.400 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.12.1)
-2024-08-03 13:41:50.769 [info] [Info  - 1:41:50 PM] (1104) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.7.1/dist
-2024-08-03 13:41:50.771 [info] [Info  - 1:41:50 PM] (1104) Experimental Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting

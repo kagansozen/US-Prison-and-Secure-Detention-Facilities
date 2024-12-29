@@ -1,0 +1,39 @@
+2024-12-29 15:43:42.699 [info] [main] Log level: Info
+2024-12-29 15:43:42.699 [info] [main] Validating found git in: "git"
+2024-12-29 15:43:42.699 [info] [main] Using git "2.34.1" from "git"
+2024-12-29 15:43:42.699 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-29 15:43:42.700 [info] > git rev-parse --show-toplevel [32ms]
+2024-12-29 15:43:42.700 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-12-29 15:43:42.700 [info] [Model][openRepository] Opened repository: /root/US-Prison-and-Secure-Detention-Facilities
+2024-12-29 15:43:42.721 [info] > git rev-parse --show-toplevel [13ms]
+2024-12-29 15:43:42.724 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-29 15:43:42.725 [info] > git config --get commit.template [20ms]
+2024-12-29 15:43:42.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-29 15:43:42.740 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-29 15:43:42.742 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-12-29 15:43:42.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-29 15:43:42.781 [info] > git status -z -uall [34ms] (cancelled)
+2024-12-29 15:43:43.048 [info] > git show --textconv :analysis.py [7ms]
+2024-12-29 15:43:43.048 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [1ms]
+2024-12-29 15:43:43.065 [info] > git blame --root --incremental 2343d9d6f7f8e1f742476b59169e02c47e45d0d4 -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [1ms]
+2024-12-29 15:43:43.065 [info] fatal: no such path analysis.py in 2343d9d6f7f8e1f742476b59169e02c47e45d0d4
+2024-12-29 15:43:43.234 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-29 15:43:45.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-29 15:43:45.938 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-12-29 15:43:45.943 [info] > git config --get commit.template [15ms]
+2024-12-29 15:43:45.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-12-29 15:43:46.618 [info] > git merge-base refs/heads/main refs/remotes/origin/main [668ms]
+2024-12-29 15:43:46.655 [info] > git diff --name-status -z --diff-filter=ADMR 2343d9d6f7f8e1f742476b59169e02c47e45d0d4...refs/remotes/origin/main [33ms]
+2024-12-29 15:43:46.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [49ms]
+2024-12-29 15:43:46.686 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-29 15:43:46.688 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-29 15:43:46.706 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-29 15:43:46.867 [info] > git status -z -uall [170ms] (cancelled)
+2024-12-29 15:50:32.867 [info] > git show --textconv :prisons.csv [8ms]
+2024-12-29 15:50:32.868 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/prisons.csv [2ms]
+2024-12-29 15:50:32.890 [info] > git show --textconv :prisons.csv [8ms]
+2024-12-29 15:50:32.891 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/prisons.csv [2ms]
+2024-12-29 15:50:39.862 [info] > git blame --root --incremental 2343d9d6f7f8e1f742476b59169e02c47e45d0d4 -- /root/US-Prison-and-Secure-Detention-Facilities/prisons.csv [2ms]
+2024-12-29 15:50:39.863 [info] fatal: no such path prisons.csv in 2343d9d6f7f8e1f742476b59169e02c47e45d0d4
+2024-12-29 15:51:10.338 [info] > git show --textconv :analysis.py [9ms]
+2024-12-29 15:51:10.339 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [2ms]
