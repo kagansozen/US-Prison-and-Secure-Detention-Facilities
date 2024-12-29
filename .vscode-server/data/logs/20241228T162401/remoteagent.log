@@ -1,0 +1,13 @@
+2024-12-28 16:24:01.972 [info] 
+
+
+
+
+2024-12-28 16:24:01.984 [info] Extension host agent started.
+2024-12-28 16:24:02.139 [info] [127.0.0.1][fa56fdc0][ManagementConnection] New connection established.
+2024-12-28 16:24:02.141 [info] Deleted uninstalled extension from disk ms-python.debugpy /root/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2024-12-28 16:24:02.141 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2024-12-28 16:24:02.656 [info] [127.0.0.1][38015474][ExtensionHostConnection] New connection established.
+2024-12-28 16:24:03.083 [info] [127.0.0.1][38015474][ExtensionHostConnection] <83194> Launched Extension Host Process.
+2024-12-28 16:26:46.311 [info] [127.0.0.1][fa56fdc0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-28 16:26:46.433 [info] [127.0.0.1][38015474][ExtensionHostConnection] <83194> Extension Host Process exited with code: 0, signal: null.

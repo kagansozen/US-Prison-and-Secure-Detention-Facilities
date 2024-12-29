@@ -1,0 +1,78 @@
+2024-12-28 14:56:49.419 [info] [main] Log level: Info
+2024-12-28 14:56:49.419 [info] [main] Validating found git in: "git"
+2024-12-28 14:56:49.419 [info] [main] Using git "2.34.1" from "git"
+2024-12-28 14:56:49.419 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-28 14:56:49.419 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-28 14:56:49.465 [info] > git rev-parse --git-dir --git-common-dir [51ms]
+2024-12-28 14:56:49.479 [info] [Model][openRepository] Opened repository: /root
+2024-12-28 14:56:49.503 [info] > git config --get commit.template [11ms]
+2024-12-28 14:56:49.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-28 14:56:49.536 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-28 14:56:49.538 [info] > git rev-parse --show-toplevel [23ms]
+2024-12-28 14:56:49.548 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-28 14:56:49.556 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-28 14:56:49.561 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-28 14:56:49.566 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-12-28 14:56:49.576 [info] [Model][openRepository] Opened repository: /root/.oh-my-zsh
+2024-12-28 14:56:49.596 [info] > git config --get commit.template [5ms]
+2024-12-28 14:56:49.597 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-28 14:56:49.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-12-28 14:56:49.607 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-28 14:56:49.612 [info] [Model][openRepository] Opened repository: /root/.pyenv
+2024-12-28 14:56:49.635 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-28 14:56:49.636 [info] > git config --get commit.template [16ms]
+2024-12-28 14:56:49.656 [info] > git status -z -uall [12ms]
+2024-12-28 14:56:49.656 [info] > git rev-parse --show-toplevel [16ms]
+2024-12-28 14:56:49.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-12-28 14:56:49.665 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-12-28 14:56:49.686 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.pyenv/.git/refs/remotes/origin/master'
+2024-12-28 14:56:49.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-12-28 14:56:49.704 [info] > git rev-parse --show-toplevel [43ms]
+2024-12-28 14:56:49.717 [info] > git config --local branch.master.vscode-merge-base [14ms]
+2024-12-28 14:56:49.722 [info] > git config --get commit.template [31ms]
+2024-12-28 14:56:49.722 [info] > git rev-parse refs/remotes/origin/master [36ms]
+2024-12-28 14:56:49.744 [info] > git status -z -uall [19ms]
+2024-12-28 14:56:49.747 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-12-28 14:56:49.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [37ms]
+2024-12-28 14:56:49.777 [info] > git rev-parse --git-dir --git-common-dir [67ms]
+2024-12-28 14:56:49.780 [info] [Model][openRepository] Opened repository: /root/US-Prison-and-Secure-Detention-Facilities
+2024-12-28 14:56:49.817 [info] > git status -z -uall [295ms] (cancelled)
+2024-12-28 14:56:49.818 [info] > git merge-base refs/heads/master refs/remotes/origin/master [55ms]
+2024-12-28 14:56:49.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [66ms]
+2024-12-28 14:56:49.832 [info] > git diff --name-status -z --diff-filter=ADMR f733dc340b2a1c5b2e61a4da7de790b2f557175f...refs/remotes/origin/master [11ms]
+2024-12-28 14:56:49.833 [info] > git rev-parse --show-toplevel [39ms]
+2024-12-28 14:56:49.835 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-28 14:56:49.835 [info] > git config --get commit.template [44ms]
+2024-12-28 14:56:49.836 [info] > git config --get commit.template [47ms]
+2024-12-28 14:56:49.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2024-12-28 14:56:50.013 [info] > git config --local branch.master.vscode-merge-base [189ms]
+2024-12-28 14:56:50.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [10ms]
+2024-12-28 14:56:50.036 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2024-12-28 14:56:50.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-28 14:56:50.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-12-28 14:56:50.051 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 14:56:50.055 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/.pyenv/.git/refs/remotes/origin/master'
+2024-12-28 14:56:50.055 [info] > git status -z -uall [11ms]
+2024-12-28 14:56:50.056 [info] > git diff --name-status -z --diff-filter=ADMR 6511ce26cd52c1a604f79516f2d02a96e7b986a3...refs/remotes/origin/master [17ms]
+2024-12-28 14:56:50.057 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-12-28 14:56:50.064 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2024-12-28 14:56:50.071 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2024-12-28 14:56:50.075 [info] > git status -z -uall [15ms]
+2024-12-28 14:56:50.075 [info] > git status -z -uall [8ms]
+2024-12-28 14:56:50.076 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-12-28 14:56:50.084 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2024-12-28 14:56:50.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-28 14:56:50.099 [info] > git config --get commit.template [6ms]
+2024-12-28 14:56:50.100 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-12-28 14:56:50.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [103ms]
+2024-12-28 14:56:50.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [106ms]
+2024-12-28 14:56:50.217 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 14:56:50.218 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-12-28 14:56:50.221 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-12-28 14:56:50.229 [info] > git status -z -uall [5ms]
+2024-12-28 14:56:50.229 [info] > git diff --name-status -z --diff-filter=ADMR 2343d9d6f7f8e1f742476b59169e02c47e45d0d4...refs/remotes/origin/main [9ms]
+2024-12-28 14:56:50.231 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-28 14:56:50.352 [info] > git check-ignore -v -z --stdin [12ms]
+2024-12-28 14:56:50.353 [info] > git check-ignore -v -z --stdin [10ms]
+2024-12-28 14:56:50.354 [info] > git check-ignore -v -z --stdin [6ms]
+2024-12-28 14:56:50.355 [info] > git check-ignore -v -z --stdin [21ms]

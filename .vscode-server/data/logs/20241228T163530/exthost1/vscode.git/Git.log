@@ -1,0 +1,31 @@
+2024-12-28 16:35:33.809 [info] [main] Log level: Info
+2024-12-28 16:35:33.809 [info] [main] Validating found git in: "git"
+2024-12-28 16:35:33.809 [info] [main] Using git "2.34.1" from "git"
+2024-12-28 16:35:33.809 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-28 16:35:33.809 [info] > git rev-parse --show-toplevel [44ms]
+2024-12-28 16:35:33.809 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-12-28 16:35:33.809 [info] [Model][openRepository] Opened repository: /root/US-Prison-and-Secure-Detention-Facilities
+2024-12-28 16:35:33.812 [info] > git config --get commit.template [8ms]
+2024-12-28 16:35:33.819 [info] > git rev-parse --show-toplevel [33ms]
+2024-12-28 16:35:33.824 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-28 16:35:33.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-28 16:35:33.852 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:35:33.853 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-12-28 16:35:33.870 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-28 16:35:33.928 [info] > git status -z -uall [65ms] (cancelled)
+2024-12-28 16:35:34.104 [info] > git show --textconv :analysis.py [6ms]
+2024-12-28 16:35:34.105 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [2ms]
+2024-12-28 16:35:34.162 [info] > git blame --root --incremental 2343d9d6f7f8e1f742476b59169e02c47e45d0d4 -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [1ms]
+2024-12-28 16:35:34.162 [info] fatal: no such path analysis.py in 2343d9d6f7f8e1f742476b59169e02c47e45d0d4
+2024-12-28 16:35:34.317 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-28 16:36:21.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-28 16:36:21.571 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-12-28 16:36:21.579 [info] > git config --get commit.template [19ms]
+2024-12-28 16:36:22.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [718ms]
+2024-12-28 16:36:22.325 [info] > git merge-base refs/heads/main refs/remotes/origin/main [25ms]
+2024-12-28 16:36:22.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-28 16:36:22.331 [info] > git diff --name-status -z --diff-filter=ADMR 2343d9d6f7f8e1f742476b59169e02c47e45d0d4...refs/remotes/origin/main [2ms]
+2024-12-28 16:36:22.336 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:36:22.337 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:36:22.348 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:36:22.443 [info] > git status -z -uall [102ms] (cancelled)

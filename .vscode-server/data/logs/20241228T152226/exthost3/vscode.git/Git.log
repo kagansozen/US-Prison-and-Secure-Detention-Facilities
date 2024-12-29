@@ -1,0 +1,143 @@
+2024-12-28 16:07:52.305 [info] [main] Log level: Info
+2024-12-28 16:07:52.305 [info] [main] Validating found git in: "git"
+2024-12-28 16:07:52.305 [info] [main] Using git "2.34.1" from "git"
+2024-12-28 16:07:52.305 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-28 16:07:52.305 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-28 16:07:52.305 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-28 16:07:52.305 [info] [Model][openRepository] Opened repository: /root/US-Prison-and-Secure-Detention-Facilities
+2024-12-28 16:07:52.305 [info] > git rev-parse --show-toplevel [42ms]
+2024-12-28 16:07:52.305 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-28 16:07:52.305 [info] > git config --get commit.template [49ms]
+2024-12-28 16:07:52.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:07:52.318 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:07:52.319 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:07:52.349 [info] > git status -z -uall [24ms]
+2024-12-28 16:07:52.350 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2024-12-28 16:07:52.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [200ms]
+2024-12-28 16:07:52.597 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-12-28 16:07:52.606 [info] > git config --get commit.template [28ms]
+2024-12-28 16:07:52.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-12-28 16:07:52.636 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2024-12-28 16:07:52.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-28 16:07:52.644 [info] > git diff --name-status -z --diff-filter=ADMR 2343d9d6f7f8e1f742476b59169e02c47e45d0d4...refs/remotes/origin/main [3ms]
+2024-12-28 16:07:52.649 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:07:52.651 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:07:52.661 [info] > git status -z -uall [6ms]
+2024-12-28 16:07:52.665 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-28 16:07:52.979 [info] > git check-ignore -v -z --stdin [139ms]
+2024-12-28 16:08:08.833 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-28 16:09:00.120 [info] > git config --get commit.template [7ms]
+2024-12-28 16:09:00.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:09:00.125 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:09:00.126 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:09:00.137 [info] > git status -z -uall [6ms]
+2024-12-28 16:09:00.138 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:09:04.320 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-28 16:09:05.157 [info] > git config --get commit.template [1ms]
+2024-12-28 16:09:05.163 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-12-28 16:09:05.168 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:09:05.169 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-12-28 16:09:05.181 [info] > git status -z -uall [7ms]
+2024-12-28 16:09:05.198 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-12-28 16:09:10.216 [info] > git config --get commit.template [1ms]
+2024-12-28 16:09:10.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-12-28 16:09:10.227 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:09:10.227 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-12-28 16:09:10.240 [info] > git status -z -uall [7ms]
+2024-12-28 16:09:10.246 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-28 16:09:52.363 [info] > git config --get commit.template [5ms]
+2024-12-28 16:09:52.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:09:52.368 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:09:52.369 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-12-28 16:09:52.378 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:09:52.397 [info] > git status -z -uall [25ms]
+2024-12-28 16:10:18.370 [info] > git show --textconv :analysis.py [119ms]
+2024-12-28 16:10:18.371 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [114ms]
+2024-12-28 16:10:18.498 [info] > git check-ignore -v -z --stdin [3ms]
+2024-12-28 16:10:19.235 [info] > git config --get commit.template [2ms]
+2024-12-28 16:10:19.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:10:19.248 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:10:19.249 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:10:19.262 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:10:19.276 [info] > git status -z -uall [22ms]
+2024-12-28 16:10:20.628 [info] > git blame --root --incremental 2343d9d6f7f8e1f742476b59169e02c47e45d0d4 -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [1ms]
+2024-12-28 16:10:20.628 [info] fatal: no such path analysis.py in 2343d9d6f7f8e1f742476b59169e02c47e45d0d4
+2024-12-28 16:12:58.216 [info] > git config --get commit.template [1ms]
+2024-12-28 16:12:58.223 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:12:58.230 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:12:58.230 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:12:58.245 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:12:58.262 [info] > git status -z -uall [25ms]
+2024-12-28 16:13:03.350 [info] > git config --get commit.template [2ms]
+2024-12-28 16:13:03.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:13:03.362 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:13:03.363 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:13:03.376 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:13:03.389 [info] > git status -z -uall [21ms]
+2024-12-28 16:13:56.629 [info] > git show --textconv :prisons.csv [11ms]
+2024-12-28 16:13:56.632 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/prisons.csv [4ms]
+2024-12-28 16:13:56.694 [info] > git show --textconv :prisons.csv [7ms]
+2024-12-28 16:13:56.695 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/prisons.csv [2ms]
+2024-12-28 16:13:56.756 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-28 16:13:57.335 [info] > git config --get commit.template [1ms]
+2024-12-28 16:13:57.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:13:57.348 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:13:57.349 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:13:57.362 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:13:57.377 [info] > git status -z -uall [22ms]
+2024-12-28 16:13:58.843 [info] > git show --textconv :analysis.py [6ms]
+2024-12-28 16:13:58.844 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [2ms]
+2024-12-28 16:14:02.462 [info] > git config --get commit.template [2ms]
+2024-12-28 16:14:02.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:14:02.473 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:14:02.474 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:14:02.486 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:14:02.498 [info] > git status -z -uall [19ms]
+2024-12-28 16:14:07.644 [info] > git config --get commit.template [1ms]
+2024-12-28 16:14:07.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-12-28 16:14:07.658 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:14:07.658 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:14:07.672 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:14:07.682 [info] > git status -z -uall [18ms]
+2024-12-28 16:15:05.532 [info] > git config --get commit.template [2ms]
+2024-12-28 16:15:05.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-28 16:15:05.545 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:15:05.546 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:15:05.559 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:15:05.584 [info] > git status -z -uall [32ms]
+2024-12-28 16:16:08.881 [info] > git config --get commit.template [1ms]
+2024-12-28 16:16:08.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:16:08.892 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:16:08.893 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:16:08.904 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:16:08.923 [info] > git status -z -uall [26ms]
+2024-12-28 16:16:36.697 [info] > git config --get commit.template [1ms]
+2024-12-28 16:16:36.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:16:36.710 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:16:36.711 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:16:36.724 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:16:36.738 [info] > git status -z -uall [22ms]
+2024-12-28 16:19:19.011 [info] > git config --get commit.template [1ms]
+2024-12-28 16:19:19.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-12-28 16:19:19.022 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:19:19.023 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:19:19.036 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-28 16:19:19.051 [info] > git status -z -uall [21ms]
+2024-12-28 16:20:56.544 [info] > git config --get commit.template [1ms]
+2024-12-28 16:20:56.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:20:56.556 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:20:56.557 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:20:56.571 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:20:56.585 [info] > git status -z -uall [22ms]
+2024-12-28 16:22:13.341 [info] > git config --get commit.template [6ms]
+2024-12-28 16:22:13.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:22:13.347 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:22:13.348 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:22:13.361 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:22:13.379 [info] > git status -z -uall [26ms]
+2024-12-28 16:22:57.950 [info] > git config --get commit.template [1ms]
+2024-12-28 16:22:57.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:22:57.962 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:22:57.962 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-12-28 16:22:57.974 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:22:58.001 [info] > git status -z -uall [34ms] (cancelled)

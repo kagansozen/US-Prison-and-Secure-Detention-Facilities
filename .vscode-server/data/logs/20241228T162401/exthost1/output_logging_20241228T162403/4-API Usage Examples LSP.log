@@ -1,0 +1,5 @@
+Logger Init
+Initialization complete.
+Loaded supported calls (Version 1.5)
+Batch of 4 Total time: 33ms (Avg. Per Call: 8ms)
+Gaia Unable to Retrieve Batch Full Call Summary for matplotlib.use(),pandas.read_csv(),print(),matplotlib.pyplot.show(). (502)

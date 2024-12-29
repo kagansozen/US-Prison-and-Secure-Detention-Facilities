@@ -1,0 +1,97 @@
+2024-12-28 15:46:28.973 [info] [Info  - 3:46:28 PM] (64569) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-28 15:46:28.973 [info] [Info  - 3:46:28 PM] (64569) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-28 15:46:28.973 [info] [Info  - 3:46:28 PM] (64569) Starting service instance "root"
+2024-12-28 15:46:29.013 [info] [Info  - 3:46:29 PM] (64569) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:46:29.013 [info] [Info  - 3:46:29 PM] (64569) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:46:29.013 [info] [Info  - 3:46:29 PM] (64569) No include entries specified; assuming /root
+2024-12-28 15:46:29.014 [info] [Info  - 3:46:29 PM] (64569) Auto-excluding **/node_modules
+2024-12-28 15:46:29.014 [info] [Info  - 3:46:29 PM] (64569) Auto-excluding **/__pycache__
+2024-12-28 15:46:29.015 [info] [Info  - 3:46:29 PM] (64569) Auto-excluding **/.*
+2024-12-28 15:46:29.031 [info] [Info  - 3:46:29 PM] (64569) Assuming Python version 3.10.12.final.0
+2024-12-28 15:46:29.084 [info] [Info  - 3:46:29 PM] (64569) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:46:29.087 [info] [Info  - 3:46:29 PM] (64569) Found 1 source file
+2024-12-28 15:46:29.432 [info] [Info  - 3:46:29 PM] (64569) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-28 15:46:29.435 [info] [Info  - 3:46:29 PM] (64569) Background analysis(1) started
+2024-12-28 15:46:29.508 [info] [Info  - 3:46:29 PM] (64569) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-28 15:46:29.508 [info] [Info  - 3:46:29 PM] (64569) Indexing(2) started
+2024-12-28 15:46:29.904 [info] [Info  - 3:46:29 PM] (64569) scanned(2) 41 files over 1 exec env
+2024-12-28 15:46:30.715 [info] [Info  - 3:46:30 PM] (64569) indexed(2) 41 files over 1 exec env
+2024-12-28 15:46:30.739 [info] [Info  - 3:46:30 PM] (64569) Indexing finished(2).
+2024-12-28 15:46:39.011 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2024-12-28 15:46:39.011 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2024-12-28 15:53:45.864 [info] [Info  - 3:53:45 PM] (64569) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:53:45.864 [info] [Info  - 3:53:45 PM] (64569) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:53:45.867 [info] [Info  - 3:53:45 PM] (64569) No include entries specified; assuming /root
+2024-12-28 15:53:45.867 [info] [Info  - 3:53:45 PM] (64569) Auto-excluding **/node_modules
+2024-12-28 15:53:45.868 [info] [Info  - 3:53:45 PM] (64569) Auto-excluding **/__pycache__
+2024-12-28 15:53:45.868 [info] [Info  - 3:53:45 PM] (64569) Auto-excluding **/.*
+2024-12-28 15:53:45.882 [info] [Info  - 3:53:45 PM] (64569) Assuming Python version 3.10.12.final.0
+2024-12-28 15:53:45.921 [info] [Info  - 3:53:45 PM] (64569) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:53:45.931 [info] [Info  - 3:53:45 PM] (64569) Found 1 source file
+2024-12-28 15:53:45.998 [info] [Info  - 3:53:45 PM] (64569) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:53:45.999 [info] [Info  - 3:53:45 PM] (64569) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:53:45.999 [info] [Info  - 3:53:45 PM] (64569) No include entries specified; assuming /root
+2024-12-28 15:53:46.000 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/node_modules
+2024-12-28 15:53:46.000 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/__pycache__
+2024-12-28 15:53:46.000 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/.*
+2024-12-28 15:53:46.022 [info] [Info  - 3:53:46 PM] (64569) Assuming Python version 3.10.12.final.0
+2024-12-28 15:53:46.056 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:53:46.057 [info] [Info  - 3:53:46 PM] (64569) Found 1 source file
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) No include entries specified; assuming /root
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/node_modules
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/__pycache__
+2024-12-28 15:53:46.068 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/.*
+2024-12-28 15:53:46.090 [info] [Info  - 3:53:46 PM] (64569) Assuming Python version 3.10.12.final.0
+2024-12-28 15:53:46.125 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:53:46.126 [info] [Info  - 3:53:46 PM] (64569) Found 1 source file
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) No include entries specified; assuming /root
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/node_modules
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/__pycache__
+2024-12-28 15:53:46.142 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding **/.*
+2024-12-28 15:53:46.252 [info] [Info  - 3:53:46 PM] (64569) Assuming Python version 3.10.12.final.0
+2024-12-28 15:53:46.283 [info] [Info  - 3:53:46 PM] (64569) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:53:46.284 [info] [Info  - 3:53:46 PM] (64569) Found 1 source file
+2024-12-28 15:53:46.392 [info] [Info  - 3:53:46 PM] (64569) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-28 15:53:46.392 [info] [Info  - 3:53:46 PM] (64569) Indexing(3) started
+2024-12-28 15:53:46.700 [info] [Info  - 3:53:46 PM] (64569) scanned(3) 41 files over 1 exec env
+2024-12-28 15:53:46.884 [info] [Info  - 3:53:46 PM] (64569) indexed(3) 41 files over 1 exec env
+2024-12-28 15:53:46.910 [info] [Info  - 3:53:46 PM] (64569) Indexing finished(3).
+2024-12-28 15:54:40.175 [info] [Info  - 3:54:40 PM] Server process exited successfully
+2024-12-28 15:54:40.993 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2024-12-28 15:54:41.337 [info] [Info  - 3:54:41 PM] (68557) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-28 15:54:41.338 [info] [Info  - 3:54:41 PM] (68557) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-28 15:54:41.344 [info] [Info  - 3:54:41 PM] (68557) Starting service instance "root"
+2024-12-28 15:54:41.378 [info] [Info  - 3:54:41 PM] (68557) Setting environmentName for service "root": "3.10.12 (global)"
+2024-12-28 15:54:41.379 [info] [Info  - 3:54:41 PM] (68557) Setting pythonPath for service "root": "/bin/python3"
+2024-12-28 15:54:41.380 [info] [Info  - 3:54:41 PM] (68557) No include entries specified; assuming /root
+2024-12-28 15:54:41.380 [info] [Info  - 3:54:41 PM] (68557) Auto-excluding **/node_modules
+2024-12-28 15:54:41.381 [info] [Info  - 3:54:41 PM] (68557) Auto-excluding **/__pycache__
+2024-12-28 15:54:41.382 [info] [Info  - 3:54:41 PM] (68557) Auto-excluding **/.*
+2024-12-28 15:54:41.397 [info] [Info  - 3:54:41 PM] (68557) Assuming Python version 3.10.12.final.0
+2024-12-28 15:54:41.448 [info] [Info  - 3:54:41 PM] (68557) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/venv
+2024-12-28 15:54:41.451 [info] [Info  - 3:54:41 PM] (68557) Found 1 source file
+2024-12-28 15:54:41.764 [info] [Info  - 3:54:41 PM] (68557) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-28 15:54:41.766 [info] [Info  - 3:54:41 PM] (68557) Background analysis(1) started
+2024-12-28 15:54:41.833 [info] [Info  - 3:54:41 PM] (68557) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-28 15:54:41.833 [info] [Info  - 3:54:41 PM] (68557) Indexing(2) started
+2024-12-28 15:54:42.197 [info] [Info  - 3:54:42 PM] (68557) scanned(2) 41 files over 1 exec env
+2024-12-28 15:54:42.386 [info] [Info  - 3:54:42 PM] (68557) indexed(2) 41 files over 1 exec env
+2024-12-28 15:54:42.419 [info] [Info  - 3:54:42 PM] (68557) Indexing finished(2).
+2024-12-28 15:54:53.061 [info] [Info  - 3:54:53 PM] (68557) Starting service instance "<default>"
+2024-12-28 15:54:53.084 [info] [Info  - 3:54:53 PM] (68557) Setting environmentName for service "<default>": "3.10.12 (global)"
+2024-12-28 15:54:53.084 [info] [Info  - 3:54:53 PM] (68557) Setting pythonPath for service "<default>": "/bin/python3"
+2024-12-28 15:54:53.085 [info] [Info  - 3:54:53 PM] (68557) No include entries specified; assuming /<default workspace root>
+2024-12-28 15:54:53.086 [info] [Info  - 3:54:53 PM] (68557) Auto-excluding **/node_modules
+2024-12-28 15:54:53.086 [info] [Info  - 3:54:53 PM] (68557) Auto-excluding **/__pycache__
+2024-12-28 15:54:53.086 [info] [Info  - 3:54:53 PM] (68557) Auto-excluding **/.*
+2024-12-28 15:54:53.103 [info] [Info  - 3:54:53 PM] (68557) Assuming Python version 3.10.12.final.0
+2024-12-28 15:54:53.134 [info] [Error - 3:54:53 PM] (68557) File or directory "/<default workspace root>" does not exist.
+2024-12-28 15:54:53.135 [info] [Info  - 3:54:53 PM] (68557) No source files found.
+2024-12-28 15:54:53.464 [info] [Info  - 3:54:53 PM] (68557) Background analysis(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-28 15:54:53.466 [info] [Info  - 3:54:53 PM] (68557) Background analysis(3) started
+2024-12-28 16:06:15.692 [info] [Info  - 4:06:15 PM] (68557) Auto-excluding /root/US-Prison-and-Secure-Detention-Facilities/data_env
+2024-12-28 16:06:15.694 [info] [Info  - 4:06:15 PM] (68557) No source files found.

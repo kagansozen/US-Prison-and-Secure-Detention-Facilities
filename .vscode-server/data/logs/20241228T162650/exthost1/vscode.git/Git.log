@@ -1,0 +1,20 @@
+2024-12-28 16:26:53.148 [info] [main] Log level: Info
+2024-12-28 16:26:53.148 [info] [main] Validating found git in: "git"
+2024-12-28 16:26:53.148 [info] [main] Using git "2.34.1" from "git"
+2024-12-28 16:26:53.148 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-28 16:26:53.148 [info] > git rev-parse --show-toplevel [34ms]
+2024-12-28 16:26:53.148 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-12-28 16:26:53.148 [info] [Model][openRepository] Opened repository: /root/US-Prison-and-Secure-Detention-Facilities
+2024-12-28 16:26:53.162 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-28 16:26:53.164 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-28 16:26:53.166 [info] > git config --get commit.template [12ms]
+2024-12-28 16:26:53.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-28 16:26:53.180 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/US-Prison-and-Secure-Detention-Facilities/.git/refs/remotes/origin/main'
+2024-12-28 16:26:53.180 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-28 16:26:53.193 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-28 16:26:53.216 [info] > git status -z -uall [31ms] (cancelled)
+2024-12-28 16:26:53.539 [info] > git show --textconv :analysis.py [8ms]
+2024-12-28 16:26:53.542 [info] > git ls-files --stage -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [3ms]
+2024-12-28 16:26:53.608 [info] > git blame --root --incremental 2343d9d6f7f8e1f742476b59169e02c47e45d0d4 -- /root/US-Prison-and-Secure-Detention-Facilities/analysis.py [1ms]
+2024-12-28 16:26:53.608 [info] fatal: no such path analysis.py in 2343d9d6f7f8e1f742476b59169e02c47e45d0d4
+2024-12-28 16:26:53.676 [info] > git check-ignore -v -z --stdin [1ms]

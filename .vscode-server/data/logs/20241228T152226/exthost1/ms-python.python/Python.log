@@ -1,0 +1,28 @@
+2024-12-28 15:46:28.224 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-28 15:46:28.224 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-28 15:46:28.224 [info] Experiment 'pythonTestAdapter' is active
+2024-12-28 15:46:28.224 [warning] Dir "/root/.pixi/envs" is not watchable (directory does not exist)
+2024-12-28 15:46:28.224 [info] Starting Environment refresh
+2024-12-28 15:46:28.224 [info] > hatch env show --json
+2024-12-28 15:46:28.224 [info] cwd: .
+2024-12-28 15:46:28.224 [info] Python interpreter path: /bin/python3
+2024-12-28 15:46:28.225 [info] Starting Environment refresh
+2024-12-28 15:46:28.284 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/interpreterInfo.py
+2024-12-28 15:46:28.345 [info] Environments refresh paths discovered: 478 milliseconds
+2024-12-28 15:46:28.346 [info] Environments refresh paths discovered: 121 milliseconds
+2024-12-28 15:46:28.378 [info] Environments refresh finished (event): 511 milliseconds
+2024-12-28 15:46:28.378 [info] Environments refresh finished (event): 153 milliseconds
+2024-12-28 15:46:28.380 [info] Environment refresh took 514 milliseconds
+2024-12-28 15:46:28.381 [info] Environment refresh took 156 milliseconds
+2024-12-28 15:46:28.386 [info] > ./.pyenv/bin/pyenv which python
+2024-12-28 15:46:28.386 [info] cwd: .
+2024-12-28 15:46:28.614 [info] Shell integration status changed, can confirm it's working.
+2024-12-28 15:46:39.012 [info] Starting Pylance language server.
+2024-12-28 15:51:39.126 [info] Discover tests for workspace name: root - uri: /root/US-Prison-and-Secure-Detention-Facilities/analysis.py
+2024-12-28 15:54:39.923 [info] Discover tests for workspace name: root - uri: /root/.vscode-server/extensions/.44d30f99-95c7-4831-a2be-207b6fdf6ee5/pythonFiles/pyproject.toml
+2024-12-28 16:00:14.498 [info] > ./data_env/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.1-linux-x64/python_files/interpreterInfo.py
+2024-12-28 16:00:14.498 [info] Environments refresh paths discovered: 31 milliseconds
+2024-12-28 16:00:14.519 [info] Environments refresh finished (event): 52 milliseconds
+2024-12-28 16:03:02.635 [info] Environments refresh finished (event): 29 milliseconds
+2024-12-28 16:03:02.635 [info] Environments refresh paths discovered: 29 milliseconds
+2024-12-28 16:05:35.956 [info] Discover tests for workspace name: root - uri: /root/US-Prison-and-Secure-Detention-Facilities/analysis.py
