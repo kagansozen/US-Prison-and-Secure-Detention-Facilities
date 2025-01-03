@@ -1,2 +1,2 @@
 # US-Prison-and-Secure-Detention-Facilities
-States, Cities and Counties with number of prisons.
+A basic analysis of U.S. prisons, including the number of prisons by state, city, and county.
